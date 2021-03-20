@@ -3,15 +3,12 @@
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const char *fonts[] = { "SFMono Nerd Font:size=13","Noto Color Emoji:pixelsize=14:antialias=true:autohint=true" };
+static const char *fonts[] = { "SFMono Nerd Font:size=11","Noto Color Emoji:pixelsize=14:antialias=true:autohint=true" };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	//[SchemeSel] = { "#eeeeee", "#0a6cf5" },
-	//[SchemeSel] = { "#222222", "#FFB52A" },
-	[SchemeSel] = { "#222222", "#5294E2" },
-//	[SchemeOut] = { "#000000", "#00ffff" },
+	[SchemeNorm] = { "#bbbbbb", "#2d2d2d" },
+	[SchemeSel] = { "#2d2d2d", "#5294E2" },
 	[SchemeHp] = { "#bbbbbb", "#333333" }
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
