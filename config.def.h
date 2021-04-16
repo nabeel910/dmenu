@@ -7,9 +7,9 @@ static const char *fonts[] = { "Roboto Mono Nerd Font:size=11","Noto Color Emoji
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#2d2d2d" },
-	[SchemeSel] = { "#2d2d2d", "#5294E2" },
-	[SchemeHp] = { "#bbbbbb", "#333333" }
+	[SchemeNorm] = { "#ABB2BF", "#282C34" },
+	[SchemeSel] = { "#282C34", "#E06C75" },
+	[SchemeHp] = { "#ABB2BF", "#333333" }
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
