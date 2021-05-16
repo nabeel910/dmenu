@@ -9,13 +9,17 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#ABB2BF", "#191724" },
 	[SchemeSel] = { "#e0def4", "#31748f" },
+	[SchemeSelHighlight] = { "#f6c177", "#31748f" },
+	[SchemeNormHighlight] = { "#f6c177", "#191724" },
+ 	[SchemeOut] = { "#000000", "#ebbcba" },
+	[SchemeOutHighlight] = { "#f6c177", "#ebbcba" },
 	[SchemeHp] = { "#191724", "#9ccfd8" }
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
-static unsigned int lineheight = 35;
-static unsigned int min_lineheight = 35;
+static unsigned int lineheight = 30;
+static unsigned int min_lineheight = 30;
 
 /*
  * Characters not considered part of a word while deleting words
